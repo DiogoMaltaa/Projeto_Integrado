@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(TrailRenderer))]
 [RequireComponent(typeof(Light))]
 
-public class Thruster : MonoBehaviour
+public class ThrusterEnemy : MonoBehaviour
 {
     TrailRenderer tr;
     Light thrLight;
@@ -18,8 +18,7 @@ public class Thruster : MonoBehaviour
 
     void Start()
     {
-       thrLight.enabled = false;
-       tr.enabled = false;
+       
     }
     
     
