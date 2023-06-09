@@ -26,6 +26,12 @@ public class Gun : MonoBehaviour
                 target.TakeDamage(damage);
             }
 
+            Destrucatable destroy = hit.transform.GetComponent<Destrucatable>();
+            if(destroy != null)
+            {
+                destroy.DestroyObject();
+            }
+
         }
     }
 }
