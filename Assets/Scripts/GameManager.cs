@@ -18,6 +18,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         mercadoriaText.SetText("Mercadoria: " + mercadoriaAtual + " / " + mercadoriaMaxima);
+        if (mercadoriaAtual >= mercadoriaMaxima)
+        {
+            mercadoriaAtual = mercadoriaMaxima;
+        }
     }
 
     public void Mercadoria(int quantidade)
