@@ -51,7 +51,7 @@ public class NaveMov : MonoBehaviour
         else if(Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
         {
                 foreach (Thruster t in thruster)
-                        t.Activate(false);
+                        t.Activate(false); 
         }
                     
 

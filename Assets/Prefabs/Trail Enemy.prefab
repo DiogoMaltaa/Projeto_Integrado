@@ -53,7 +53,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7061519300235759202, guid: 27689b6934b64bc4c80ae6ab8d701008, type: 3}
       propertyPath: m_Name
-      value: Trail
+      value: Trail Enemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7256536850433900941, guid: 27689b6934b64bc4c80ae6ab8d701008, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 27689b6934b64bc4c80ae6ab8d701008, type: 3}
+--- !u!1 &2583805300078975412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7061519300235759202, guid: 27689b6934b64bc4c80ae6ab8d701008, type: 3}
+  m_PrefabInstance: {fileID: 4765946781720942550}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2875931571852191605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2583805300078975412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0482cc2fe1aab4c93601c1be9df6b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
