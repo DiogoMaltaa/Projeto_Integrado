@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4730064358200399551}
   - component: {fileID: 8713750492278629311}
   - component: {fileID: 2418306250864581016}
+  - component: {fileID: 7529772830379988213}
   m_Layer: 7
   m_Name: robo
   m_TagString: Untagged
@@ -112,3 +113,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.03
   m_Center: {x: -0.000014433343, y: -0.0009965368, z: -0.008789921}
+--- !u!111 &7529772830379988213
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6531464146543376234}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 553768c83dbf5a946870ada5638fb2da, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 553768c83dbf5a946870ada5638fb2da, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
