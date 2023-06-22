@@ -43,4 +43,4 @@ public class Projetil : MonoBehaviour
         Debug.Log($"projectile collided with {collision.collider.name}");
     }
 }
-}
+

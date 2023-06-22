@@ -60,8 +60,7 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private float crouchStepMultiplier = 1.5f;
     [SerializeField] private float sprintStepMultiplier = 0.6f;
     [SerializeField] private AudioSource footstepAudioSource = default;
-    //[SerializeField] private AudioClip[] metalSound = default;
-    //[SerializeField] private AudioClip[] nonMetalSound = default; //Im very creative iknow
+    [SerializeField] private AudioClip[] rockSound = default;
     private float footstepTimer = 0;
     private float getCurrentOffset => isCrouching ? baseStepSpeed * crouchStepMultiplier : isSprinting ? baseStepSpeed * sprintStepMultiplier : baseStepSpeed;
 
@@ -200,11 +199,8 @@ public class FirstPersonController : MonoBehaviour
             {
                 switch (hit.collider.tag)
                 {
-                    case "Footstep/METAL":
-                        //footstepAudioSource.PlayOneShot(metalSound[Random.Range(0, metalSound.Length - 1)]);
-                        break;
-                    case "Footstep/NONMETAL":
-                        //footstepAudioSource.PlayOneShot(nonMetalSound[Random.Range(0, nonMetalSound.Length - 1)]);
+                    case "Footstep/ROCK":
+                        footstepAudioSource.PlayOneShot(rockSound[Random.Range(0, rockSound.Length - 1)]);
                         break;
                     default:
                         //footstepAudioSource.PlayOneShot(nonMetalSound[Random.Range(0, nonMetalSound.Length - 1)]);
