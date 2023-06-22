@@ -17,7 +17,7 @@ public class EnemyAttack : MonoBehaviour
         float angle = Vector3.Angle(transform.forward, directionalToTarget);
 
         //if in range
-        if (Mathf.Abs(angle) > 90 && Mathf.Abs(angle) <270)
+        if (Mathf.Abs(angle) > 90 && Mathf.Abs(angle) < 270)
         {
             Debug.DrawLine(transform.position, target.position, Color.green);
             return true;
