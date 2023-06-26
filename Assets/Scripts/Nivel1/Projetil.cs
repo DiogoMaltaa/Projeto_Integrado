@@ -9,6 +9,8 @@ public class Projetil : MonoBehaviour
     [SerializeField] [Range(10, 1000)] int _damage = 100;
     [SerializeField] [Range(2f, 10f)] float _range = 5f;
 
+    [SerializeField]float tempoParaDestruir = 10f;
+
     private EnemyVida inimigo;
 
     bool OutOfFuel
@@ -42,6 +44,13 @@ public class Projetil : MonoBehaviour
     void Update()
     {
         if (OutOfFuel) Destroy(gameObject);
+
+        tempoParaDestruir -= Time.deltaTime;
+
+        if(tempoParaDestruir <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
