@@ -8,6 +8,11 @@ public class EnemyMov : MonoBehaviour
     [SerializeField] float rotationalDamp = .5f;
     [SerializeField] float movementSpeed = 10f;
 
+    private void Start()
+    {
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+    }
+
     void Update()
     {
         Turn();

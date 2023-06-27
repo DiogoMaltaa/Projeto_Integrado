@@ -4824,7 +4824,7 @@ GameObject:
   - component: {fileID: 7157590017145331996}
   m_Layer: 0
   m_Name: Nave
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4858,7 +4858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 100
-  turnSpeed: 60
+  turnSpeed: 100
   thruster:
   - {fileID: 0}
   - {fileID: 0}
@@ -4921,6 +4921,10 @@ PrefabInstance:
     - target: {fileID: 3375589511811271362, guid: 7e36aa8476ded8945be758ca6808384a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952165594744937874, guid: 7e36aa8476ded8945be758ca6808384a, type: 3}
+      propertyPath: _coolDownTime
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 6032220989333949361, guid: 7e36aa8476ded8945be758ca6808384a, type: 3}
       propertyPath: m_RootOrder
@@ -5003,6 +5007,10 @@ PrefabInstance:
     - target: {fileID: 3375589511811271362, guid: 7e36aa8476ded8945be758ca6808384a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952165594744937874, guid: 7e36aa8476ded8945be758ca6808384a, type: 3}
+      propertyPath: _coolDownTime
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 6032220989333949361, guid: 7e36aa8476ded8945be758ca6808384a, type: 3}
       propertyPath: m_RootOrder
