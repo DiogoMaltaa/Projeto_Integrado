@@ -2522,6 +2522,7 @@ MonoBehaviour:
   defaultInteractIconSize: {x: 35, y: 35}
   interactionKey: 101
   interactionText: {fileID: 429384040}
+  interactionTextString: 'To Collect '
 --- !u!114 &1401720087
 MonoBehaviour:
   m_ObjectHideFlags: 0

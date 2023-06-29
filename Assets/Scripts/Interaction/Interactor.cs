@@ -18,6 +18,7 @@ public class Interactor : MonoBehaviour
     [Header("Interaction Text")]
     public KeyCode interactionKey;
     public TextMeshProUGUI interactionText;
+    public string interactionTextString;
 
     void Start()
     {
@@ -31,7 +32,7 @@ public class Interactor : MonoBehaviour
 
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 3, interactableLayerMask))
         {
-            interactionText.text = "Press " + interactionKey + " To Interact";
+            interactionText.text = "Press " + interactionKey + " " + interactionTextString;
 
             if (hit.collider.GetComponent<Interactable>() != false)
             {
