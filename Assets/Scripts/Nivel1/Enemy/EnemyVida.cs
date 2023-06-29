@@ -6,6 +6,14 @@ public class EnemyVida : MonoBehaviour
 {
     public int vida;
 
+
+    Level1Manager level1;
+
+    private void Start()
+    {
+        level1 = FindObjectOfType<Level1Manager>();
+    }
+
     private void Update()
     {
         DestruirNave();
@@ -16,6 +24,7 @@ public class EnemyVida : MonoBehaviour
         if(vida <= 0)
         {
             Destroy(gameObject);
+            level1.enemiesKilled += 1;
         }
     }
 

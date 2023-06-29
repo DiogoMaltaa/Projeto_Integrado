@@ -23,7 +23,7 @@ public class Blaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (CanFire && Input.GetMouseButton(0))
+        if (CanFire && Input.GetMouseButton(0) || CanFire && Input.GetKey(KeyCode.Space))
         {
             FireProjectile();
         }
