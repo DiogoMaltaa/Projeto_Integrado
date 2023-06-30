@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3102141, g: 0.064945504, b: 0.017843403, a: 1}
+  m_IndirectSpecularColor: {r: 0.31020668, g: 0.06494341, b: 0.017842824, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesKilled: 0
-  sceneToGo: WinPrototype
+  sceneToGo: cutsceneNave
 --- !u!4 &1678368038 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7157590017145331997, guid: 3f435be03f28dd841a1ecc5d04cd03e1, type: 3}

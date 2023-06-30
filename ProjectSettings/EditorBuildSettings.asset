@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 34105be5f079ec3468e2449838a06ec9
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 8bb6a95973949604685e93a5c89487e6
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: a31a5cafec501e0439f9fd0f8b95754c
   - enabled: 1
+    path: Assets/Scenes/cutsceneNave.unity
+    guid: feefd1f712403fb498ff3dd3d1c5555d
+  - enabled: 1
     path: Assets/Scenes/Boss_Level.unity
     guid: 06294a19460d6a84aadc2869bb7ce405
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 1c8f049661a80844c8b20b62f70259e6
   m_configObjects: {}
