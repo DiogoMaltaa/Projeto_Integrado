@@ -3,7 +3,17 @@ guid: 7265e644c1bf04648866e4a916e4461b
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arena
+    second: {fileID: 2100000, guid: e17526f6f873a604e8b3bd1169ed41eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cabos
+    second: {fileID: 2100000, guid: dba1dc686c5071c4aaaedde972cc0bae, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

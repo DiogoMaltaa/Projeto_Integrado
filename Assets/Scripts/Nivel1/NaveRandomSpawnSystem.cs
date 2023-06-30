@@ -20,7 +20,7 @@ public class NaveRandomSpawnSystem : MonoBehaviour
         {
             if (currentEnemiesSpawned <= enemiesToSpawn)
             {
-                Vector3 randomPos = new Vector3(Random.Range(100, -100), 0, Random.Range(100, -100));
+                Vector3 randomPos = new Vector3(Random.Range(400, -400), 0, Random.Range(400, -400));
                 SpawnNave(randomPos);
             }
             else

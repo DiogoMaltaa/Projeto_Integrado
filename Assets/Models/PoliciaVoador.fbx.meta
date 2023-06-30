@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3e366851b6eb7c544b9cce5644d93d31
+guid: b62b41665138fec43a919c2742945068
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: BOSS_MAT
-    second: {fileID: 2100000, guid: 4fb79d1f06ffb914dbe93a4c929eadfc, type: 2}
+      name: Jetpack
+    second: {fileID: 2100000, guid: 2beb1b7b0cbe25a47bfbcf41cb64d70f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 53f39d29369116e4c82e6381d1d8caab, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
