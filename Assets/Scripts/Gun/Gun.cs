@@ -32,6 +32,12 @@ public class Gun : MonoBehaviour
                 destroy.DestroyObject();
             }
 
+            BossAI boss = hit.transform.GetComponent<BossAI>();
+            if (boss != null)
+            {
+                boss.bossHealth -= 10;
+            }
+
         }
     }
 }
